@@ -19,7 +19,7 @@ class MobileBankApiTestV1 {
       // Проверки
       .then()
               .statusCode(200)
-              .body("[0].currency", equalTo("RUR"));
+              .body("[0].currency", equalTo("RUB"));
 
     }
 }
